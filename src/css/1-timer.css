@@ -19,8 +19,8 @@ input[type='text' i] {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   outline: transparent;
 }
 
@@ -37,8 +37,8 @@ button[data-start] {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -64,8 +64,8 @@ button:disabled {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px;
-  letter-spacing: 1.6px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
 }
 
 .label {
@@ -74,6 +74,7 @@ button:disabled {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
